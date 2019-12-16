@@ -5,10 +5,15 @@
 
 ## 용어
 `Protected resource`: 권한을 받은 후 사용하고 싶은 자원.
+
 `Client`: 권한을 받아 자원을 사용하고 싶은 어플리케이션. `Consumer` 라고도 함
+
 `User`: 클라이언트를 사용하는 유저
+
 `Resource owner`: 자원 소유자. `Service provider`라고도 함.
+
 `Resource server`: 자원 서버. 검증된 클라이언트에게 자원을 제공해주는 서버.
+
 `Authorization server`: 권한 서버. 
 
 내 홈페이지에 `페이스북 계정으로 로그인하기` 기능을 넣은 상황을 예로 든다면, `Resource owner`는 페이스북, `Client`는 내 홈페이지, `User`는 로그인하고 싶은 접속자이다. 
