@@ -1,7 +1,7 @@
 # 이미 push한 commit 합치기
 
 ## 방법
-* git rebase -i 원하는커밋~원하는커밋 
+* git rebase -i 원하는커밋
 	* ex) `git rebase -i HEAD~4`
 * 합칠 커밋에 squash 표시 후 저장
 * 새로운 커밋 메시지를 지정
